@@ -16,6 +16,10 @@ li {
     box-sizing: border-box;
 }
 
+h2{
+    text-decoration: underline;
+}
+
 /* Body */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +30,7 @@ body {
 
 /* Header section */
 header {
-    background-color: #333;
+    background-color: orangered;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -72,13 +76,23 @@ ul {
 }
 
 /* Project section */
+#projects h2{
+    margin-bottom: 10px;
+}
+
 article {
     margin-bottom: 15px;
+}
+
+article h3{
+    font-weight: 500;
+    color: #141414;
 }
 
 /* Contact Section */
 #contact p i {
     margin-right: 10px;
+    color: orangered;
 }
 
 /* Footer */
